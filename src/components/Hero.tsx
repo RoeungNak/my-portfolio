@@ -80,7 +80,7 @@ const Hero = () => {
             style={{ animationDelay: "0.8s" }}
           >
             <a
-              href="https://github.com/Roeungnak9632"
+              href="https://github.com/RoeungNak?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-card hover:bg-secondary rounded-full transition-all duration-300 glow-effect hover:scale-110 hover:-rotate-6"

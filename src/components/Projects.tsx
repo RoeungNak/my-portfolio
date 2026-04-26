@@ -117,36 +117,13 @@ const Projects = () => {
         live: "#",
         accentColor: "from-orange-500 to-pink-600",
       },
-      {
-        title: "Payment Gateway",
-        description:
-          "KHQR Payment Gateway with QR code generation, secure transaction processing, and real-time payment status updates. Built with  Laravel, and MySQL.",
-        features: [
-          "Scan QR Code for Payment",
-          "Automatically Generate QR Code",
-          "Auto Complete Payment Details",
-          "Transaction History in database",
-          "Send Invoice to Telegram Bot",
-        ],
-        tech: ["Laravel", "Tailwind CSS", "MySQL"],
-        images: [
-          imageKHQR,
-          imageStore,
-          imageCart,
-          imageKHQRPayment,
-          imageSuccess,
-        ],
-        github: "https://github.com/roeungnak168company-cpu",
-        live: "#",
-        accentColor: "from-orange-500 to-pink-600",
-      },
     ],
-    []
+    [],
   );
 
   const allTechs = useMemo(
     () => ["All", ...Array.from(new Set(projects.flatMap((p) => p.tech)))],
-    [projects]
+    [projects],
   );
 
   // Filter projects based on selected tech
@@ -155,7 +132,7 @@ const Projects = () => {
       selectedTech === "All"
         ? projects
         : projects.filter((p) => p.tech.includes(selectedTech)),
-    [projects, selectedTech]
+    [projects, selectedTech],
   );
 
   return (
