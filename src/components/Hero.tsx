@@ -42,7 +42,7 @@ const Hero = () => {
               className="text-xl md:text-2xl text-muted-foreground mb-2 animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             >
-              Web Developer Intership
+              API Developer Intern
             </p>
             <p
               className="text-lg text-muted-foreground max-w-2xl mx-auto animate-fade-in"

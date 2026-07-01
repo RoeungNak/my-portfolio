@@ -49,7 +49,7 @@ const Profile = () => {
       period: "2022 - 2023",
     },
     {
-      degree: "Bachelor of Software Engineering Year 3 Semester 2",
+      degree: "Bachelor of Software Engineering Year 4 Semester 1",
       institution: "BELTEI UNIVERSITY",
       period: "2023 - present",
     },
